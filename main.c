@@ -1,6 +1,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <ctype.h>
+#include <time.h>
 
 #define long 100
 
@@ -120,8 +121,6 @@ void MostrarGramatica(struct Gramatica *G)
 
     return;
 }
-
-
 
 int main()
 {
